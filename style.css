@@ -1,0 +1,101 @@
+body {
+ background-image:url('bg.jpg');
+		  background-repeat:no-repeat;
+		  background-attachment:fixed;
+		  background-size:100%
+		  
+}
+.navbar ul{
+	list-style:none;
+	background: #25383C;
+	padding:0;
+	margin:0;
+	text-align: center;
+}
+.navbar li{
+	display: inline-block;
+}
+.navbar a{
+	text-decoration: none;
+	color:#fff;
+	width:100px;
+	display: block;
+	padding: 25px 80px;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	
+}
+.navbar a:hover{
+	background: orange;
+}
+
+.img {
+	height:550px;
+	width:1000px;
+	margin-top: 40px;
+	
+}
+.img2 {
+	height:200px;
+	width:280px;
+	margin-top: 30px;
+}
+.logo {
+	height:200px;
+	width:260px;
+	margin-top: -120px;
+}
+#footer
+{   position:relative;
+    margin-top: 20px;
+	font-family : Georgia;
+	clear: left;
+	background: #25383C;
+	text-align: center;
+	padding: 15px;
+	height: 2%;
+   color: white;
+}
+.fb {
+	height:60px;
+	width:60px;
+	margin-top: 40px;
+	text-align: center;
+	color: white;
+	font-family : Georgia;
+}
+.insta {
+	height:60px;
+	width:60px;
+	margin-top: 40px;
+	text-align: center;
+	color: white;
+	font-family : Georgia;
+}
+.h1
+{
+	height:60px;
+	width:60px;
+	margin-top: 80px;
+	text-align: center;
+	color: white;
+	font-family : Georgia;
+}
+.button {
+	 position:relative;
+    margin-top: 400px;
+  font-family : Georgia;
+  font-size: 30px;
+  border-radius: 12px;
+  padding: 20px 620px;
+  transition-duration: 0.4s;
+  background-color: #008B8B;
+  color: white;
+}
+
+.button:hover {
+  background-color: #006D6D;
+  color: white;
+}
